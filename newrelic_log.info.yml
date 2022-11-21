@@ -1,0 +1,5 @@
+name: NewRelic Log
+type: module
+description: Send Drupal's watchdog log messages to NewRelic
+core_version_requirement: ^8.8 || ^9
+project: 'newrelic_log'

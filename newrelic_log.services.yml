@@ -1,0 +1,6 @@
+services:
+    logger.newrelic_log:
+        class: Drupal\newrelic_log\Logger\NewRelicLog
+        arguments: ['@logger.log_message_parser']
+        tags:
+            - {name: logger}
